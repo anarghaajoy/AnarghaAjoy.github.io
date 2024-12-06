@@ -4048,6 +4048,11 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	border-top-width: 0;
 }
 
+#main>.posts>article>p {
+	font-size: 18px;
+	line-height: 35px;
+}
+
 @media screen and (max-width: 980px) {
 
 	#main>.posts>* {
@@ -4094,6 +4099,19 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 		margin-right: auto;
 	}
 
+	#main>.posts>article>p {
+		font-size: 15px;
+		line-height: 30px;
+	}
+
+	.subtitle {
+		line-height: 40px;
+		margin-bottom: 15px;
+	}
+
+	header.major> :last-child {
+		text-align: justify;
+	}
 }
 
 @media screen and (max-width: 736px) {
